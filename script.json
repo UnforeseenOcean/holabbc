@@ -1,0 +1,57 @@
+{
+	"name": "Unblock bbc.co.uk and BBC iPlayer and BBC Live Streams!",
+	"author": "linux.gemini",
+	"description": "A package I created to unblock BBC iPlayer I like",
+	"site": "http://github.com/linuxgemini/holabbc",
+	"icon": "http://www.gravatar.com/avatar/6c07add59ba3bc75eb6b6352bdc51ac0.png",
+	"unblocker_rules": {
+		"bbc_iplayer": {
+			"description": "bbc.co.uk unblocking rule",
+			"link": "bbc.co.uk/iplayer",
+			"root_url": [
+				"*.bbc.co.uk",
+				"*.bbci.co.uk"
+			],
+			"icon": "http://game-insider.com/wp-content/uploads/2012/03/BBC_iPlayer_strip_logo2.jpg",
+			"cmds": [
+				{
+					"hosts": [
+						"bbc.co.uk",
+						"static.bbci.co.uk",
+						"open.bbci.co.uk",
+						"ichef.bbci.co.uk",
+						"effectivemeasure.net",
+						"node1.bbcimg.co.uk",
+						"me-cdn.effectivemeasure.net",
+						"b.scorecardresearch.com",
+						"sa.bbc.com",
+						"95.140.226.168",
+						"stats.bbc.co.uk",
+						"js.revsci.net",
+						"iplayertokfs.fplive.net",
+						"bbcmedia.fc.llnwd.net",
+						"bbcmedia.fcod.llnwd.net",
+						"cp41752.edgefcs.net",
+						"cp96472.live.edgefcs.net",
+						"edgefcs.net",
+						"80.156.249.14",
+						"80.156.249.13",
+						"87.248.197.195",
+						"cp96474.live.edgefcs.net",
+						"80.156.249.45",
+						"open.live.bbc.co.uk",
+						"bbcfmhds.vo.llnwd.net",
+						"80.156.249.47",
+						"zaphod-live.bbc.co.uk.edgesuite.net",
+						"80.156.249.39",
+						"pal025.cwwtf.bbc.co.uk",
+						"88.221.216.87"
+					],
+					"dst_dns": "false",
+					"then": "PROXY GB"
+				}
+			]
+		}
+	},
+	"import": []
+}
