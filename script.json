@@ -9,8 +9,8 @@
 			"description": "bbc.co.uk unblocking rule",
 			"link": "bbc.co.uk/iplayer",
 			"root_url": [
-				"*.bbc.co.uk",
-				"*.bbci.co.uk"
+				"**.bbc.co.uk",
+				"**.bbci.co.uk"
 			],
 			"icon": "http://game-insider.com/wp-content/uploads/2012/03/BBC_iPlayer_strip_logo2.jpg",
 			"cmds": [
@@ -47,7 +47,7 @@
 						"pal025.cwwtf.bbc.co.uk",
 						"88.221.216.87"
 					],
-					"dst_dns": "false",
+					"dst_dns": "true",
 					"then": "PROXY GB"
 				}
 			]
