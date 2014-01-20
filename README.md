@@ -3,6 +3,11 @@ BBC iPlayer Script for Hola Unblocker
 
 I created this script for learning English. (Because I'm Turkish.)
 
+Authors
+-------
+
+*İlteriş Eroğlu
+
 Using
 -----
 
