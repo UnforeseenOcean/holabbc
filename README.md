@@ -6,7 +6,7 @@ I created this script for learning English. (Because I'm Turkish.)
 Authors
 -------
 
-*İlteriş Eroğlu
+* İlteriş Eroğlu
 
 Using
 -----
