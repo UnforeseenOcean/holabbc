@@ -44,10 +44,11 @@
 						"80.156.249.47",
 						"zaphod-live.bbc.co.uk.edgesuite.net",
 						"95.140.227.189",
-						"8.27.4.126",
+						"sa.bbc.co.uk",
 						"80.156.249.39",
 						"pal025.cwwtf.bbc.co.uk",
-						"88.221.216.87"
+						"88.221.216.87",
+						"213.229.101.241"
 					],
 					"dst_dns": "true",
 					"then": "PROXY GB"
